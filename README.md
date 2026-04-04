@@ -1,115 +1,117 @@
-<div align="center">
+# 🔢 Python NumPy Basics
 
-# 🚀 [PLAYLIST / COURSE NAME HERE]
-### A structured, hands-on learning repository — built while following the YouTube series
+> A hands-on Jupyter Notebook covering the fundamentals of NumPy — the backbone of scientific computing in Python.
 
-[![YouTube Playlist](https://img.shields.io/badge/YouTube-Playlist-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=XF6DCrNTzug&list=PLEkC1_DzbPc6cFLC1uoDco7bszPKy4DnP)
+[![Python](https://img.shields.io/badge/Python-3.x-0D1117?style=for-the-badge&logo=python&logoColor=00FFB9)](https://python.org)
+[![NumPy](https://img.shields.io/badge/NumPy-Latest-0D1117?style=for-the-badge&logo=numpy&logoColor=00FFB9)](https://numpy.org)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-0D1117?style=for-the-badge&logo=jupyter&logoColor=00FFB9)](https://jupyter.org)
 [![GitHub](https://img.shields.io/badge/GitHub-mohitjaryal-0D1117?style=for-the-badge&logo=github&logoColor=00FFB9)](https://github.com/mohitjaryal)
 [![Website](https://img.shields.io/badge/🌐_Website-mohitjaryal.online-0D1117?style=for-the-badge)](https://mohitjaryal.online)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mohitjaryal-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohitjaryal)
-
-</div>
 
 ---
 
 ## 📌 About This Repository
 
-This repository contains all my **code, notes, and exercises** written while following the YouTube playlist above. It's not just a code dump — it's a structured learning journal where every video maps to a folder, and every concept is practiced with examples.
+This repository is a **beginner-friendly, practical guide to NumPy** — written as a Jupyter Notebook with clean examples, inline explanations, and hands-on exercises. Whether you're just starting out with data science or brushing up on array operations, this notebook has you covered.
 
-> *"The best way to learn is to build. The best way to remember is to document."*
+> *"NumPy is the foundation. Master it, and everything else — Pandas, ML, deep learning — becomes easier."*
+
+---
+
+## 📓 What's Inside
+
+The `basic_numpy.ipynb` notebook covers:
+
+- **Array Creation** — `np.array()`, `np.zeros()`, `np.ones()`, `np.arange()`, `np.linspace()`
+- **Array Properties** — shape, size, ndim, dtype
+- **Indexing & Slicing** — 1D, 2D, and multi-dimensional arrays
+- **Array Operations** — arithmetic, broadcasting, element-wise operations
+- **Mathematical Functions** — `np.sum()`, `np.mean()`, `np.min()`, `np.max()`, `np.sqrt()`, etc.
+- **Array Manipulation** — reshape, flatten, transpose, stack, split
+- **Random Module** — `np.random.rand()`, `np.random.randint()`, `np.random.seed()`
 
 ---
 
 ## 🗂️ Repository Structure
 
-
-
-> Each folder corresponds to a video/section in the playlist. Notes are in Markdown, and code is runnable.
-
----
-
-## 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=00FFB9)
-![Jupyter](https://img.shields.io/badge/Jupyter-0D1117?style=flat-square&logo=jupyter&logoColor=00FFB9)
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=flat-square&logo=numpy&logoColor=00FFB9)
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=flat-square&logo=pandas&logoColor=00FFB9)
-![VS Code](https://img.shields.io/badge/VSCode-0D1117?style=flat-square&logo=visualstudiocode&logoColor=00FFB9)
+```
+python-numpy-basics/
+│
+├── basic_numpy.ipynb     # Main notebook with all concepts & examples
+├── README.md             # You're reading this!
+└── LICENSE               # MIT License
+```
 
 ---
 
 ## ⚙️ Getting Started
 
-Follow these steps to run the code on your machine:
-
 ### 1. Clone the repository
+
 ```bash
-git clone https://github.com/mohitjaryal/[repo-name].git
-cd [repo-name]
+git clone https://github.com/mohitjaryal/python-numpy-basics.git
+cd python-numpy-basics
 ```
 
-### 2. Create a virtual environment (recommended)
+### 2. Install dependencies
+
 ```bash
-python -m venv venv
-source venv/bin/activate        # On Mac/Linux
-venv\Scripts\activate           # On Windows
+pip install numpy jupyter
 ```
 
-### 3. Install dependencies
+### 3. Launch Jupyter Notebook
+
 ```bash
-pip install -r requirements.txt
+jupyter notebook basic_numpy.ipynb
 ```
 
-### 4. Run any file
-```bash
-python 01_introduction/code.py
-# or open .ipynb files in Jupyter Notebook / VS Code
-```
+Or open it directly in **VS Code** with the Jupyter extension.
 
 ---
 
-## 📺 Original Playlist
+## 🛠️ Tech Stack
 
-> All credit for the teaching goes to the original creator of the YouTube series.
-
-🔗 **Watch the full playlist here:**  
-👉 [YouTube Playlist](https://www.youtube.com/watch?v=XF6DCrNTzug&list=PLEkC1_DzbPc6cFLC1uoDco7bszPKy4DnP)
-
-This repo is my **personal learning companion** for that series — written entirely by me while watching the videos, with additional notes, comments, and experiments of my own.
+| Tool | Purpose |
+|------|---------|
+| Python 3.x | Core language |
+| NumPy | Array computing library |
+| Jupyter Notebook | Interactive coding environment |
+| VS Code | Code editor |
 
 ---
 
 ## 🤝 Contributing
 
-This is a personal learning repo, but if you're following the same playlist and want to:
-- Fix a bug in my code
-- Add a better explanation
-- Share a useful resource
+This is a personal learning project, but contributions are welcome! If you'd like to:
 
-Feel free to **open an issue** or **submit a pull request**. Learning together is always better!
+- Fix an error or improve an explanation
+- Add more examples or exercises
+- Suggest a topic to cover
+
+Feel free to **open an issue** or **submit a pull request**.
 
 ---
 
 ## 📬 Connect with Me
 
-<div align="center">
-
 | Platform | Link |
 |----------|------|
 | 🌐 Website | [mohitjaryal.online](https://mohitjaryal.online) |
+| 💻 GitHub | [github.com/mohitjaryal](https://github.com/mohitjaryal) |
 | 💼 LinkedIn | [in/mohitjaryal](https://www.linkedin.com/in/mohitjaryal) |
 | 🐦 Twitter/X | [@mohitjaryal04](https://x.com/mohitjaryal04) |
-| 💻 GitHub | [mohitjaryal](https://github.com/mohitjaryal) |
 | 🧩 LeetCode | [mohitjaryal](https://leetcode.com/u/mohitjaryal) |
-
-</div>
 
 ---
 
-<div align="center">
+## 📄 License
 
-**⭐ If this repo helped you, consider giving it a star! It motivates me to keep learning and documenting.**
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-*Made with 💙 by [Mohit Jaryal](https://mohitjaryal.online)*
+---
 
-</div>
+<p align="center">
+  ⭐ <strong>If this helped you, drop a star! It keeps me motivated to keep building.</strong> ⭐
+  <br><br>
+  Made with 💙 by <a href="https://mohitjaryal.online">Mohit Jaryal</a>
+</p>
